@@ -1,1 +1,54 @@
+img{
+    width: 100%;
+}
 
+
+
+section{
+    width: 100%;
+}
+
+section > p{
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: justify;
+    margin: 0 1rem;
+}
+
+form{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: .75rem;
+    border: 1px solid #0d0d0d;
+    padding: 1rem;
+    box-shadow: 1px 1px 5px #582a59;
+}
+
+label{
+    font-size: 1.25rem;
+}
+
+input{
+    font-size: 1.25rem;
+    padding: .5rem 0;
+    background-color: transparent;
+    border: 1px solid #582a59;
+    border-radius: .5rem;
+}
+
+@media all and (min-width: 600px){
+    img{
+        width: 25%;
+        aspect-ratio: 1;
+        border-radius: 50%;
+        margin-left: 1rem;
+        float: right;
+        shape-outside: margin-box;
+    }
+
+    form{
+        width: 60%;
+    }
+}
